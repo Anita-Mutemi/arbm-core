@@ -6,8 +6,8 @@ alembic==1.11.1
 amqp==5.2.0
 anyio==4.4.0
 api-analytics==1.2.3
-# # Editable install with no version control (arbm_core==0.4.1)
-# -e c:\users\homepc\downloads\alpha\packages\arbmcoremain
+# Editable install with no version control (arbm_core==0.4.1)
+-e C:\Users\HomePC\Downloads\arbm_core
 async-timeout==4.0.3
 attrs==23.2.0
 autoflake==1.5.3

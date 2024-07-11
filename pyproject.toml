@@ -2,7 +2,7 @@
 name = "arbm-core"
 version = "0.4.1"
 description = ""
-authors = ["Mark R <theiterance@gmail.com>"]
+authors = ["Anita-Mutemi <anitajehu13@gmail.com>"]
 packages = [{include = "arbm_core"}]
 
 [tool.poetry.dependencies]
