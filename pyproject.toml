@@ -2,7 +2,7 @@
 name = "arbm-core"
 version = "0.4.1"
 description = ""
-authors = ["Mark R <theiterance@gmail.com>"]
+authors = ["Anita-Mutemi <anitajehu13@gmail.com>"]
 packages = [{include = "arbm_core"}]
 
 [tool.poetry.dependencies]
@@ -19,6 +19,8 @@ pymongo = "^4.5.0"
 deprecated = "^1.2.14"
 python-dotenv = "^1.0.0"
 
-[build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
+[tool.poetry.dev-dependencies]
+pytest = "^7.3.2"
+pytest-cov = "^4.1.0"
+black = "^22.6.0"
+mypy = "^0.910"
